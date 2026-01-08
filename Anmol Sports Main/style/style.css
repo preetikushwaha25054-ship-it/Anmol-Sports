@@ -1,0 +1,934 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #331892;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* -----------------------------------------------Hero Section */
+
+        /* -------------------------------------home ke liye hai ye  */
+        .hero {
+            background: url("../heading-img/neon-style-american-football-player.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: rgb(252, 249, 249);
+        }
+
+
+        .hero-1 {
+            background: url("../heading-img/view-tennis-player-with-digital-art-effect.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: rgb(5, 5, 5);
+        }
+
+
+
+        .hero-2 {
+            background: url("../heading-img/black-white-portrait-athlete-competing-paralympics-championship-games.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: rgb(252, 251, 251);
+        }
+
+
+
+        .hero-3 {
+            background: url("../heading-img/details-ball-sport.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: rgb(251, 248, 248);
+        }
+
+
+        .hero-4 {
+            background: url("../heading-img/portrait-person-playing-cricket-sport.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: rgb(245, 240, 240);
+        }
+
+
+
+        .hero-5 {
+            background: url("../heading-img/3d-gym-equipment.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: rgb(251, 251, 249);
+        }
+
+
+
+        .hero-6 {
+            background: url("../heading-img/close-up-athlete-playing-soccer.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: rgb(251, 249, 249);
+        }
+
+
+        .hero-7 {
+            background: url("../heading-img/healthy-lifestyle-running-outdoors.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: rgb(251, 249, 249);
+        }
+
+        .hero-8 {
+            background: url("../heading-img/healthy-lifestyle-running-outdoors.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: rgb(251, 249, 249);
+        }
+
+        /*---------------------------- for home */
+        .hero-content h2 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            animation: fadeInUp 1s ease;
+        }
+
+        .hero-content p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            animation: fadeInUp 1s ease 0.2s;
+            animation-fill-mode: both;
+        }
+
+        .cta-button {
+            background: #ffd700;
+            color: #1e3c72;
+            padding: 1rem 2.5rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+            display: inline-block;
+            animation: fadeInUp 1s ease 0.4s;
+            animation-fill-mode: both;
+        }
+
+        .cta-button:hover {
+            background: #ffed4e;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(1, 1, 1, 0.3);
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+
+
+
+
+
+        /* -------------------------------------products ke liye hai ye  */
+
+
+        /*---------------------------- for products */
+        .hero-content-1 {
+            border: 3px#f8f9fa solid;
+            border-radius: 30px;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            max-width: 800px;
+            padding: 20px 30px;
+            border: 2px rgb(140, 189, 252)solid;
+        }
+
+        .hero-content-1 h2 {
+
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            animation: fadeInUp 1s ease;
+        }
+
+        .hero-content-1 p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            animation: fadeInUp 1s ease 0.2s;
+            animation-fill-mode: both;
+        }
+
+        .cta-button-1 {
+            background: #ffd700;
+            color: #1e3c72;
+            padding: 1rem 2.5rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+            display: inline-block;
+            animation: fadeInUp 1s ease 0.4s;
+            animation-fill-mode: both;
+        }
+
+        .cta-button-1:hover {
+            background: #ffed4e;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(255, 215, 0, 0.3);
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+
+        /*--------------------------------------------- Why Choose Us Section */
+        .why-choose-us {
+            padding: 5rem 2rem;
+            background: #f8f9fa;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #1e3c72;
+        }
+
+        .features-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #2a5298;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #1e3c72;
+        }
+
+        /* Featured Products Section */
+        .featured-products {
+            padding: 5rem 2rem;
+            background: white;
+        }
+
+        .products-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .product-image {
+            height: 250px;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            color: white;
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+                object-fit: contain;
+            }
+
+        }
+
+        .product-info {
+            padding: 1.5rem;
+        }
+
+        .product-info h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+            color: #1e3c72;
+        }
+
+        .product-price {
+            font-size: 1.5rem;
+            color: #2a5298;
+            font-weight: bold;
+            margin: 1rem 0;
+        }
+
+        .product-button {
+            width: 100%;
+            height: 100%;
+            background: #1e3c72;
+            color: white;
+            padding: 0.8rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.3s;
+        }
+
+        .product-button:hover {
+            background: #2a5298;
+        }
+
+        /* Footer */
+        footer {
+            background: #1e3c72;
+            color: white;
+            padding: 3rem 2rem 1rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1rem;
+            color: #ffd700;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: #ffd700;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .hero-content h2 {
+                font-size: 2rem;
+            }
+
+            .hero-content p {
+                font-size: 1rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+        }
+
+        /* 1. Keyframes for Fade-In Effect */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+                /* हल्का नीचे से ऊपर आने का प्रभाव */
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* -------------------------------------
+   1. Base & Reset Styles
+   ------------------------------------- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f7f6;
+            /* हल्का बैकग्राउंड */
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        section {
+            padding: 60px 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            color: #004d40;
+            /* गहरा हरा */
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background: #ff6f00;
+            /* नारंगी एक्सेंट */
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
+
+
+
+        /* -------------------------------------
+   3. Hero Section Styles
+   ------------------------------------- */
+
+        .hero-content-3 {
+            color: white;
+            max-width: 800px;
+        }
+
+        .hero-content-3 h2 {
+            font-size: 4em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero-content-3 p {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+
+        .cta-button-3 {
+            display: inline-block;
+            background-color: #ff6f00;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .cta-button-3:hover {
+            background-color: #e65100;
+            transform: translateY(-3px);
+        }
+
+        /* -------------------------------------
+   4. Box & Animation Styles (The Requested Features)
+   ------------------------------------- */
+
+        /* Common Box Style */
+        .section-box {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 40px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            /* नरम शैडो */
+        }
+
+        /* Mission/Vision Specific Box */
+        .mission-vision-box {
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 5px solid #ff6f00;
+            /* नारंगी बॉर्डर */
+            background-color: #fcefdc;
+            /* हल्का नारंगी बैकग्राउंड */
+            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .mission-vision-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(255, 111, 0, 0.3);
+        }
+
+        .mission-vision-box h3 {
+            color: #004d40;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+
+
+        /* Feature Card Box */
+        .features-grid {
+            display: flex;
+            justify-content: space-around;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .feature-card {
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            flex: 1 1 300px;
+            /* फ्लेक्सिबल चौड़ाई */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border-top: 5px solid #004d40;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        .feature-card:hover {
+            transform: scale(1.05);
+            /* छोटा जूम इफेक्ट */
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .feature-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+            color: #ff6f00;
+        }
+
+        .feature-card h3 {
+            font-size: 1.4em;
+            margin-bottom: 10px;
+            color: #004d40;
+        }
+
+        /* --- Keyframes for Animations --- */
+
+        /* 1. Fade In Up */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animated-fade-in-up {
+            animation: fadeInUp 1s ease-out forwards;
+        }
+
+        /* 2. Simple Scale/Pop */
+        @keyframes scale {
+            0% {
+                transform: scale(0.9);
+                opacity: 0;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .animated-scale {
+            animation: scale 0.6s ease-out forwards;
+        }
+
+        /* 3. Pop In (for mission/vision) */
+        @keyframes popIn {
+            0% {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .animated-pop-in {
+            animation: popIn 0.7s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+            /* बाउंस इफेक्ट */
+            opacity: 0;
+            /* शुरू में छुपाएँ */
+        }
+
+        .animated-pop-in:nth-child(1) {
+            animation-delay: 0.5s;
+        }
+
+        .animated-pop-in:nth-child(2) {
+            animation-delay: 0.8s;
+        }
+
+        /* 4. Slide In from Right (Title) */
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .animated-slide-in-right {
+            animation: slideInRight 0.8s ease-out forwards;
+        }
+
+        /* 5. Slide In from Left (Title) */
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .animated-slide-in-left {
+            animation: slideInLeft 0.8s ease-out forwards;
+        }
+
+        /* 6. Flip Card (for features) */
+        @keyframes flip {
+            0% {
+                transform: perspective(400px) rotateY(-90deg);
+                opacity: 0;
+            }
+
+            100% {
+                transform: perspective(400px) rotateY(0deg);
+                opacity: 1;
+            }
+        }
+
+        .animated-flip {
+            animation: flip 1s ease-out forwards;
+            opacity: 0;
+            /* शुरू में छुपाएँ */
+        }
+
+        /* Animation Delays for Features */
+        .features-grid .feature-card:nth-child(1) {
+            animation-delay: 0.2s;
+        }
+
+        .features-grid .feature-card:nth-child(2) {
+            animation-delay: 0.4s;
+        }
+
+        .features-grid .feature-card:nth-child(3) {
+            animation-delay: 0.6s;
+        }
+
+        /* 7. General Fade In with Delay */
+        .animated-fade-in-delay {
+            animation: fadeInUp 1s ease-out forwards;
+            animation-delay: 0.5s;
+            opacity: 0;
+        }
+
+        /* -------------------------------------
+   5. Footer Styles
+   ------------------------------------- */
+        footer {
+            background-color: #1c365f;
+            /* गहरा फुटर */
+            color: #cccccc;
+            padding: 40px 20px 10px;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+            max-width: 1200px;
+            margin: 0 auto 30px;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .footer-section {
+            flex: 1 1 200px;
+        }
+
+        .footer-section h3 {
+            color: white;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ff6f00;
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 8px;
+        }
+
+        .footer-section a {
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: #ff6f00;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            border-top: 1px solid z#152275;
+            padding-top: 10px;
+            font-size: 0.9em;
+        }
+
+        /* Basic Styles for the About Section */
+        .about-main {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            min-height: 70vh;
+            /* Ensure it takes up enough screen height */
+        }
+
+        .about-main h2 {
+            text-align: center;
+            color: #0056b3;
+            margin-bottom: 50px;
+            font-size: 2.5em;
+            border-bottom: 3px solid #0056b3;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        .section-block {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        .section-block h3 {
+            color: #333;
+            border-left: 5px solid #ff9900;
+            /* Accent color */
+            padding-left: 15px;
+            margin-bottom: 15px;
+        }
+
+        .mission-grid {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+            /* Added for responsiveness */
+        }
+
+        @media (max-width: 768px) {
+            .mission-grid {
+                flex-direction: column;
+            }
+        }
+
+        .mission-card {
+            flex: 1;
+            padding: 20px;
+            border: 1px dashed #ccc;
+            border-radius: 6px;
+            text-align: center;
+        }
+
+        .mission-card h4 {
+            color: #007bff;
+            margin-top: 10px;
+        }
+
+        /* New Styles for Map and Shop Photo */
+        .map-container {
+            overflow: hidden;
+            padding-bottom: 56.25%;
+            /* 16:9 Aspect Ratio */
+            position: relative;
+            height: 0;
+            border-radius: 6px;
+        }
+
+        .map-container iframe {
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            border: 0;
+        }
+
+        .shop-photo-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* --- NEW STYLES FOR BHAIYA'S PHOTO --- */
+        .founder-block {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .founder-photo {
+            flex: 0 0 200px;
+            /* Fixed width for the photo container */
+            text-align: center;
+        }
+
+        .founder-photo img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            /* Makes the image circular */
+            border: 5px solid #ff9900;
+            /* Accent color border */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .founder-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        @media (max-width: 600px) {
+            .founder-block {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .founder-photo {
+                flex: none;
+            }
+        }
+
+        /* --- END OF NEW STYLES --- */
